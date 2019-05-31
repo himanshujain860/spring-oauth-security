@@ -16,7 +16,7 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 @EnableAuthorizationServer
 public class AuthorizationServerConfiguration extends AuthorizationServerConfigurerAdapter {
 
-    private static String REALM="MY_OAUTH_REALM";
+    private static final String REALM="MY_OAUTH_REALM";
 
     @Autowired
     private TokenStore tokenStore;
